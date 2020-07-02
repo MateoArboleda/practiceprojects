@@ -1,0 +1,57 @@
+html {
+    box-sizing: border-box;
+  }
+
+  *,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+    min-height: 100vh;
+    background-color: #f7fff7;
+    display: flex; 
+    justify-content: center;
+    align-content: center;
+
+    
+}
+
+.main__content{
+
+    height: 200px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box__info{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    padding: 8px;
+    text-align: center;
+    
+}
+
+.box:nth-of-type(odd){
+
+    background-color: #1dd3b0;
+    border: solid black 2px;
+    
+}
+
+.box:nth-of-type(even){
+    background-color: #affc41;
+    border: solid black 2px;
+
+}
